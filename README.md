@@ -1,8 +1,8 @@
 # The Repo
+https://github.com/Nackles/train-scheduler
 
-
-#The Site
-
+# The Site
+https://nackles.github.io/train-scheduler/
 
 # TrainActivity
 Goal: To make a table that stores the information for theoretical trains input by the user. This is based around persistant web storage using Firebase.
