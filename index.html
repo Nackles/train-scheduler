@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Tiny Tim's Terrible Timorious Trigantic Train Town Tower</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript" src="assets/javascript/app.js">
+    </script>
+
+    <!-- Firebase Reference -->
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+        <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+</head>
+
+
+<body>
+
+    <!-- Employee Tracker -->
+    <div class=" container">
+
+        < !--Jumbotron -->
+            <div class="jumbotron bg-dark">
+                <h1 class="text-center text-danger">These the trains that go Beep Beep</h1>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <!-- Current Employees-->
+                    <div class="card mb-4">
+                        <div class="card-header bg-warning">Schedule for Beep Beep</div>
+                        <div class="card-body">
+                            <table class="table table-sm table-hover" id='title-table'>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Title of Train</th>
+                                        <th scope="col">Final Frontier</th>
+                                        <th scope="col">Frequency</th>
+                                        <th scope="col">Next Departure</th>
+                                        <th scope="col">Minutes Remaining</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Add Employee  -->
+                    <div class="card mb-4">
+                        <div class="card-header bg-info text-dark"><strong>Train Summoner</div>
+                        <div class="card-body">
+
+                            <!-- Entry Form -->
+                            <form>
+                                <div class="form-group">
+                                    <label for="train-input">Train Title</label>
+                                    <input class="form-control" id="train-input" placeholder="Saruman Safari"
+                                        type="text">
+                                </div>
+                                <div class="form-group">
+                                    <label for="fontier-input">Final Frontier</label>
+                                    <input class="form-control" id="frontier-input" placeholder="The Next Age"
+                                        type="text">
+                                </div>
+                                <div class="form-group">
+                                    <label for="time-input">Start Date (MM/DD/YYYY)</label>
+                                    <input class="form-control" id="time-input" placeholder="mm/dd/yyyy" type="date">
+                                </div>
+                                <div class="form-group">
+                                    <label for="frequency-input">Train Frequency</label>
+                                    <input class="form-control" id="frequency-input" placeholder="3" type="text">
+                                </div>
+                                <button class="btn btn-primary float-right" id="go">Go button</button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+</body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
